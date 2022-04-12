@@ -14,28 +14,20 @@ body {
     line-height: 22px;
     background-color: rgb(235, 229, 214);
     margin: 0 auto; /*this will eliminate any white border around the browser frame*/
-   
 
 }
 
 /*Create a class that will serve as a container for our elements. We can use this container class on different elements to set a common width, center the elements on the page, and apply some common horizontal padding.
 
 Setting a width tells the browser definitively how wide any element with the class of container should be. Using a left and right margin of auto in conjunction with this width lets the browser automatically figure out equal left and right margins for the element, thus centering it on the page. Lastly, the left and right padding ensures that our content isn’t sitting directly on the edge of the element and provides a little breathing room for the content.*/
-.border {
-  border-right: 3px solid black;
-  width: 100%;
-  height: 500px;
-  margin-left: -50%;
-  margin-top: -315px;
-  margin-bottom: 40px;
-  z-index: 0;
+
+  
+
   
 
 }
 
-.img {
 
-}
 
 
 
@@ -110,45 +102,6 @@ header {
   background-color: #; /* This is the box color*/
 }
 
-aside {
-	font-weight: 300; /*setting a light version of the font quiet sans*/
-  font-style: italic;
-  font-size: 18px;
-  line-height: 36px;
-  color: #00acc1;
-  padding: 1.5%;
-  width: 60%;
-  margin: 0 auto;
-}
-
-div1 {
-  margin-top: auto;
-  float:right;
-  background-color: #;
-  width: px;
-  padding: 100px;
-  margin: 0px;
-  text-align: .leftcol;
-font-size: 17px;
-font-style: italic;
-letter-spacing: 3px;
-line-height: 1.5;
-}
-
-div2 {
-  margin-top: 40;
-  float:left;
-  background-color: #;
-  width: px;
-  padding: 100px;
-  margin: 0px;
-  text-align: .leftcol;
-font-size: 17px;
-font-style: italic;
-letter-spacing: 3px;
-line-height: 1.5;
-}
-
 
 
 .grid-container {
@@ -157,12 +110,6 @@ line-height: 1.5;
   grid-row-gap: 100px;
   grid-column-gap:400px;
 justify-content:space-evenly;
-
-}
-.grid-item {
-
-}
-
 
 
 strong{
@@ -177,9 +124,7 @@ section {
   /*border: 1px dotted #949599; /* border is set to show you the frames, you can delete*/
   padding: 1.5%;
 }
-.date {
-  padding-right: 10%;
-}
+
 /* using the clear property will cause the footer to drop to the bottom of the page*/
 footer {
 	  clear: both;
